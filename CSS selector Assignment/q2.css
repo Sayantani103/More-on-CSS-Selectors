@@ -1,0 +1,14 @@
+ul li{
+    list-style:none;
+    a{
+        text-decoration: none;
+    }
+}
+
+nav > ul > li{
+    display: inline;
+}
+
+li + li{
+    margin-left: 12%;
+}

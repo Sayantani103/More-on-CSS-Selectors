@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+}
+
+button{
+    padding: 20px;
+    border-radius: 5%;
+    border: 0px;
+    background-color: cornflowerblue;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow:12px 10px 5px lightgray;
+    background-color: darkcyan;
+}

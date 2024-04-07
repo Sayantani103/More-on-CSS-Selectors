@@ -1,0 +1,41 @@
+nav a{
+    /* B-->a */
+    color: rgba(243, 17, 54, 0.493);
+}
+nav > h2{
+    /* B-->b */
+    color: cadetblue;
+    background-color: aliceblue;
+}
+div + p{
+    /* B-->c */
+    color: rgb(81, 18, 253);
+}
+
+a[href]{
+    /* C-->a */
+    color:red;
+    text-decoration: none;
+}
+a[class="active"]{
+    /* c-->b */
+    color:cadetblue;
+    text-decoration: underline;
+}
+a[target="_self"]{
+    /* C-->c */
+    background-color:rgb(139, 199, 252);
+}
+p:last-of-type::after{
+    /* D-->a */
+    content: "...";
+}
+li::marker{
+     /* D-->b */
+    color:cadetblue;
+}
+p:nth-last-of-type(2)::first-letter{
+    /* D-->c */
+    font-size: 30px;
+    color: red;
+}
